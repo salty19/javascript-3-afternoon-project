@@ -134,8 +134,7 @@ const purchases = [{"owner":"Barry","price":103},{"owner":"Bob","price":75},
   Use a high order method to create to get the sum of bobsTotal.
 */
 
-let bobsTotal = purchases.reduce(
-  function()
+let bobsTotal = purchases.reduce(function(acc, curr){
+    return acc.bob.price + curr.bob.price
+  }
 )
-
-
