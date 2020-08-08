@@ -55,41 +55,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-function totalPopulation(object) {
-  let {utah, california, texas, arizona} = object
-  let totalPopulation = object.reduce(function(acc, curr){
-    return acc + curr;
-  },0)
+let obj = {
+  utah: 1,
+  california: 2,
+  texas: 3,
+  arizona: 4
 }
 
-
-// STILL NOT CORRECT!:
-// let totalPopulation = {utah, california, texas, arizona}.reduce(function (acc, curr){
-//   return acc + curr
-// },0)
-
-
-
-// BELOW IS ORIGINAL SYNTAX:
-
-// function totalPopulation(obj) 
-// let {utah, california, texas, arizona} = obj 
-// let sum = obj.reduce(function(acc, curr){
-//   return acc + curr;
-// },0)
-
-// BELOW IS FROM HIGHER-ORDER:
-
-// let bobsTotal = purchases.reduce(function(acc, curr){
-//   console.log(acc, curr)
-//     if (curr.owner === "Bob") {
-//       return acc + curr.price
-//     } else {
-//       return acc
-//     }
-//   }
-//   ,0
-// )
+let totalPopulation = (obj) => {
+  let {utah, california, texas, arizona} = obj;
+  let total = utah + california + texas + arizona;
+  return total
+}
 
 
 ////////// PROBLEM 4 //////////
