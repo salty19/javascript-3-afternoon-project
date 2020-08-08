@@ -22,8 +22,7 @@ var carDetails = {
 */
 
 //Code Here
-let {color, make, model, year} = carDetails 
-
+let {color, make, model, year} = carDetails
 
 ////////// PROBLEM 2 //////////
 
@@ -35,7 +34,7 @@ let {color, make, model, year} = carDetails
 
 function greeting( obj ) {
   //Code Here
-  
+  return 
 
   
   // Do not edit the code below.
