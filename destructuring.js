@@ -34,7 +34,7 @@ let {color, make, model, year} = carDetails
 
 function greeting( obj ) {
   //Code Here
-  return 
+  let {firstName, lastName, title} = obj 
 
   
   // Do not edit the code below.
