@@ -55,7 +55,32 @@ function greeting( obj ) {
 */
 
 //Code Here
+let totalPopulation = {utah, california, texas, arizona}.reduce(function (acc, curr){
+  return acc + curr
+},0)
 
+
+
+// BELOW IS ORIGINAL SYNTAX:
+
+// function totalPopulation(obj) 
+// let {utah, california, texas, arizona} = obj 
+// let sum = obj.reduce(function(acc, curr){
+//   return acc + curr;
+// },0)
+
+// BELOW IS FROM HIGHER-ORDER:
+
+// let bobsTotal = purchases.reduce(function(acc, curr){
+//   console.log(acc, curr)
+//     if (curr.owner === "Bob") {
+//       return acc + curr.price
+//     } else {
+//       return acc
+//     }
+//   }
+//   ,0
+// )
 
 
 ////////// PROBLEM 4 //////////
