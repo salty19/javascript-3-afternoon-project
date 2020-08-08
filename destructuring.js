@@ -22,6 +22,10 @@ var carDetails = {
 */
 
 //Code Here
+const {color} = carDetails;
+const {make} = carDetails;
+const {model} = carDetails;
+const {year} = carDetails;
 
 
 
@@ -35,7 +39,11 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+  const {firstName} = greeting;
+  const {lastName} = greeting;
+  const {title} = greeting;
+
+  return firstName, lastName, title
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
