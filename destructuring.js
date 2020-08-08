@@ -55,9 +55,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-let totalPopulation = {utah, california, texas, arizona}.reduce(function (acc, curr){
-  return acc + curr
-},0)
+function totalPopulation(object) {
+  let {utah, california, texas, arizona} = object
+  let totalPopulation = object.reduce(function(acc, curr){
+    return acc + curr;
+  },0)
+}
+
+
+// STILL NOT CORRECT!:
+// let totalPopulation = {utah, california, texas, arizona}.reduce(function (acc, curr){
+//   return acc + curr
+// },0)
 
 
 
