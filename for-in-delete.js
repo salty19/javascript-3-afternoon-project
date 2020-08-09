@@ -59,7 +59,13 @@ function showValues( obj ) {
 */
 
 //Code Here
-
+function greaterThan10(obj) {
+  for(let key in obj){
+    if(key > 10){
+      
+    }
+  }
+}
 
 
 ////////// PROBLEM 3 //////////
