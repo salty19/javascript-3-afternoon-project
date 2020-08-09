@@ -102,7 +102,17 @@ function ingredients( obj ) {
 */
 
 //Code Here
+function largeNumbers( {first, second, third} ) {
 
+  if(first < second && first < third){
+    return first
+  } else if (second < third){
+    return second
+  }  else {
+      return third
+    }
+    
+}
 
 
 ////////// PROBLEM 6 //////////
