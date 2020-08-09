@@ -81,16 +81,11 @@ let totalPopulation = (obj) => {
 
 //Code Here
 
-let macros = {
-  carb: 'rice',
-  fat: 'almonds',
-  protein: 'chicken'
+function ingredients( obj ) {
+  const { carb, fat, protein } = obj
+
+  return[carb, fat, protein]
 }
-
-let ingredients = {"rice", "almonds", "chicken"};
-ingredients.push("rice", "almonds", "chicken");
-
-
 
 ////////// PROBLEM 5 //////////
 
