@@ -126,19 +126,15 @@ function largeNumbers( {first, second, third} ) {
 //Code Here
 function numberGroups ( {a, b, c} ) {
 
-    let numberGroups = [a, b, c] {
-
-      if (a > b && a > c){
-        return a 
-      } else if (b > c) {
-        return b 
-      } else { 
-        return c 
-      }
-
+    if (a.length > b.length && a. length > c.length){
+      return a 
+    } else if (b.length > c.length) {
+      return b 
+    } else {
+      return c 
     }
-  }
-  
+
+}
 
 
 
