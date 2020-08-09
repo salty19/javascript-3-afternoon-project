@@ -61,10 +61,11 @@ function showValues( obj ) {
 //Code Here
 function greaterThan10(obj) {
   for(let key in obj){
-    if(key > 10){
-      
+    if(obj[key] > 10){
+      obj[key] = 0;
     }
   }
+  return obj
 }
 
 
@@ -77,7 +78,12 @@ function greaterThan10(obj) {
 */
 
 //Code Here
-
+function double(obj) {
+  for(var key in obj){
+    obj[key] = obj[key] * 2;
+  }
+  return obj
+}
 
 
 ////////// PROBLEM 4 //////////
@@ -91,7 +97,14 @@ function greaterThan10(obj) {
 */
 
 //Code Here
+function secrets(obj) {
 
+  let emptyStr = "";
+
+  for(var key in obj){
+    if(ob[key])
+  }
+}
 
 
 /* 
