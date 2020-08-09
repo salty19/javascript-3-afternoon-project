@@ -80,14 +80,16 @@ let totalPopulation = (obj) => {
 */
 
 //Code Here
+
 let (obj) = {
   carb: 'rice',
   fat: 'almonds',
   protein: 'chicken'
 }
 
-let ingredients = (ojb) => {
-  
+let ingredients = (obj) => {
+  let {carb, fat, protein} = obj;
+
 }
 
 
