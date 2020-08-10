@@ -156,7 +156,11 @@ var myCar = {
 */
 
 //Code Here
-
+let recordCleaner  - () = {
+  myCar.accidents.forEach()employees.1) => [
+    if(employees.atFaultForAccidents === true)
+  ]
+}
 
 
 ////////// PROBLEM 5 //////////
