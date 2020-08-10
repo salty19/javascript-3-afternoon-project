@@ -49,9 +49,12 @@ const result = addNums(...numbers)
 
 ////////// PROBLEM 4 //////////
 
-/* Using the spread operator, concatentate the two arrays below and save it to a variable named "combinedArrays" */
+/* Using the spread operator, concatenate the two arrays below and save it to a variable named "combinedArrays" */
 
 let arr1 = ['dog', 'chameleon', 'monkey'];
 let arr2 = ['bear', 'tiger', 'liger'];
 
+
+
 // code here
+const combinedArrays = [...arr1, ...arr2];
