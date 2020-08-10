@@ -138,7 +138,20 @@ function secrets(obj) {
 */
 
 //Code Here
+function removePassword(obj){
+  for(let key in obj){
+    if (key === "password"){
+      delete obj[key];
+    }
+  }
+  return obj 
+}
 
+// my code below did not work
+// function removePassword(obj){
+//   delete obj.password
+// }
+// return obj
 
 
 ////////// PROBLEM 6 //////////
@@ -157,7 +170,23 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
+function deleteProp(obj){
+  for (let key in obj) {
+    if (obj[key] > 100){
+      delete obj[key];
+    }
+  }
+  return obj
+}
 
+// function removePassword(obj){
+//   for(let key in obj){
+//     if (key === "password"){
+//       delete obj[key];
+//     }
+//   }
+//   return obj 
+// }
 
 
 ////////// PROBLEM 7 //////////
@@ -170,7 +199,17 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
+function startsWithK(obj) {
 
+  // let str = "";
+
+  for(var key in obj){
+    if(key.startsWith("k")){
+      delete obj[key]
+    }
+  }
+  return obj 
+}
 
 
 ////////// PROBLEM 8 //////////
