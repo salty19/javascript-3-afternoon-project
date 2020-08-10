@@ -51,14 +51,14 @@ var employees = [
 */
 
 //Code Here
-function employeeUpdater () {
-  for (var key in employees){
-    if (employees[key] === "Theo")
-    delete employees.firstName, employees.lastName, employees.email, employees.department;
-    if (employees[key] === "Lorie")
+// function employeeUpdater () {
+//   for (var key in employees){
+//     if (employees[key] === "Theo")
+//     delete employees.firstName, employees.lastName, employees.email, employees.department;
+//     if (employees[key] === "Lorie")
 
-  }
-}
+//   }
+// }
 
 
 ////////// PROBLEM 2 //////////
@@ -76,7 +76,17 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
 */
 
 //Code Here
-
+function removeDuplicates (workplaceAccidents){
+  for (let i = 0; i < workplaceAccidents.length; i++) {
+    for (let j = i+1; j < workplaceAccidents.length; j++) {
+      if (workplaceAccidents[i] === workplaceAccidents[j]) {
+        workplaceAccidents.splice(i, 1);
+        i--; 
+      }
+    }
+  }
+  return workplaceAccidents
+}
 
 
 ////////// PROBLEM 3 //////////
