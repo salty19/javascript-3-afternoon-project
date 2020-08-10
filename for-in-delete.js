@@ -224,5 +224,14 @@ function startsWithK(obj) {
 */
 
 //Code Here
+function hiddenTreasure(obj){
+  for(var key in obj){
+    if (key.length === "treasure"){
+      delete obj[key]
+    }
+  }
+  return obj
+}
+
 
 
