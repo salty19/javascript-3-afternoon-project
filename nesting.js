@@ -161,6 +161,8 @@ let recordCleaner  - () = {
     if(employees.atFaultForAccidents === true)
   ]
 }
+// STILL NEED TO WORK ON ABOVE
+
 
 
 ////////// PROBLEM 5 //////////
