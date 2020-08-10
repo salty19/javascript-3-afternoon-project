@@ -99,11 +99,14 @@ function double(obj) {
 //Code Here
 function secrets(obj) {
 
-  let emptyStr = "";
+  let str = "";
 
   for(var key in obj){
-    if(ob[key])
+    if(key.startsWith("sh")){
+      str += obj[key]
+    }
   }
+  return str
 }
 
 
