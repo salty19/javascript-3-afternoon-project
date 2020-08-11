@@ -101,9 +101,9 @@ function secrets(obj) {
 
   let str = "";
 
-  for(var key in obj){
-    if(key.startsWith("sh")){
-      str += obj[key]
+  for(var prop in obj){
+    if(prop.startsWith("sh")){
+      str += obj[prop]
     }
   }
   return str
