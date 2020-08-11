@@ -116,8 +116,12 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity = cat.catFriends[0].activites[1];
+var fluffy2ndFriend = cat.catFriends[1].name;
+
+grumpyActivity;
+
+
 
 
 
