@@ -170,14 +170,13 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
-function deleteProp(obj){
-  for (let key in obj) {
-    if (obj[key] > 100){
-      delete obj[key];
+
+  for (let key in deleteTheBigNumbers) {
+    if (deleteTheBigNumbers[key] > 100){
+      delete deleteTheBigNumbers[key];
     }
   }
-  return obj
-}
+
 
 // function removePassword(obj){
 //   for(let key in obj){
@@ -225,12 +224,12 @@ function startsWithK(obj) {
 
 //Code Here
 function hiddenTreasure(obj){
-  for(var key in obj){
-    if (key.length === "treasure"){
-      delete obj[key]
+  for(let key in obj){
+    if(!obj[key].includes("treasure")){
+      delete obj[key];
     }
   }
-  return obj
+  return obj;
 }
 
 
