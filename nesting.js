@@ -51,8 +51,8 @@ var employees = [
 */
 
 //Code Here
-let employeeUpdate = () => {
-  let filteredEmployees = employees.filter(e => e.firstName !== "Theeo")
+let employeeUpdater = () => {
+  let filteredEmployees = employees.filter(e => e.firstName !== "Theo")
   let mappedEmployees = filteredEmployees.map(e => {
     if (e.firstName === "Lorie"){
       e.department = "HR"
@@ -158,11 +158,11 @@ var myCar = {
 */
 
 //Code Here
-let recordCleaner  - () = {
-  myCar.accidents.forEach()employees.1) => [
-    if(employees.atFaultForAccidents === true)
-  ]
-}
+// let recordCleaner  - () = {
+//   myCar.accidents.forEach()employees.1) => [
+//     if(employees.atFaultForAccidents === true)
+//   ]
+// }
 // STILL NEED TO WORK ON ABOVE
 
 
