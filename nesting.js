@@ -116,13 +116,10 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity = cat.catFriends[0].activites[1];
-var fluffy2ndFriend = cat.catFriends[1].name;
+let grumpyActivity = cat.catFriends[0].activities[1];
+let fluffy2ndFriend = cat.catFriends[1].name;
 
 grumpyActivity;
-
-
-
 
 
 ////////// PROBLEM 4 //////////
@@ -162,12 +159,18 @@ var myCar = {
 */
 
 //Code Here
-// let recordCleaner  - () = {
-//   myCar.accidents.forEach()employees.1) => [
-//     if(employees.atFaultForAccidents === true)
-//   ]
-// }
-// STILL NEED TO WORK ON ABOVE
+let recordCleaner = () => {
+  for (let i=0, i < myCar.accidents.length; i++){
+    
+
+
+
+}
+  // myCar.accidents.forEach()employees.1) => [
+  //   if(employees.atFaultForAccidents === true)
+  // ]
+
+
 
 
 
